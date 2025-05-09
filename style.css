@@ -1,0 +1,43 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+* {
+    background-color: #ffa07a;
+}
+
+a {
+    border: 1px solid rgb(75, 75, 75);
+    padding: 4px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    background-color: #008080;
+    border-radius: 6px;
+    
+    
+}
+
+a:hover {
+    color: #008080;
+    background-color: white;
+    font-style: italic;
+}
+
+h1 {
+    font-family: Garamond, "Times New Roman", serif;
+    font-weight: 800;
+    font-size: 80px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-style: italic;
+    color: #ff733c;
+}
+
+body {
+    text-align: center;
+}
